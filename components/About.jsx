@@ -24,7 +24,7 @@ const About = () => {
                         HTML, and CSS. At the moment, I'm learning Next.js and Tailwind.
                     </p>
                 </div>
-                <div className="w-full h-auto m-auto col-span-2 flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+                <div className="w-full h-auto m-auto col-span-2 flex items-end justify-end p-4 hover:scale-105 ease-in duration-300">
                     <Image className="rounded-xl" src={about} alt="/" />
                 </div>
             </div>
