@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
-import Image from 'next/image'
-import Link from 'next/link'
-import { AiOutlineMail, AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
+import Image from "next/image"
+import Link from "next/link"
+import { AiOutlineMail, AiOutlineClose, AiOutlineMenu } from "react-icons/ai"
 import { FaGithub, FaLinkedinIn } from "react-icons/fa"
 
 const Navbar = () => {
@@ -62,7 +62,7 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className="border-b border-gray-300 my-4">
-                            <p className="w-[85%] md:w-[90%] py-4">Let's build something</p>
+                            <p className="w-[85%] md:w-[90%] py-4">Let"s build something</p>
                         </div>
                     </div>
                     <div className="py-4 flex flex-col">
@@ -84,27 +84,27 @@ const Navbar = () => {
                             </Link>
                         </ul>
                         <div className="pt-20">
-                            <p className="uppercase tracking-widest text-[#5651e5]">Let's Connect</p>
+                            <p className="uppercase tracking-widest text-[#5651e5]">Let"s Connect</p>
                             <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                                <a href="https://www.linkedin.com/in/kedar-anugerah-nacha-putra/"
-                                    target='_blank'
-                                    rel='noreferrer'>
+                                <Link href="https://www.linkedin.com/in/kedar-anugerah-nacha-putra/"
+                                    target="_blank"
+                                    rel="noreferrer">
                                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <FaLinkedinIn />
                                     </div>
-                                </a>
-                                <a href="https://github.com/kedarnacha"
-                                    target='_blank'
-                                    rel='noreferrer'>
+                                </Link>
+                                <Link href="https://github.com/kedarnacha"
+                                    target="_blank"
+                                    rel="noreferrer">
                                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <FaGithub />
                                     </div>
-                                </a>
-                                <a href="/#contact">
+                                </Link>
+                                <Link href="/#contact">
                                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <AiOutlineMail />
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
