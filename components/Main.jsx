@@ -9,16 +9,16 @@ function Main() {
             <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
                 <div>
                     <p className="uppercase text-sm tracking-widest text-gray-600">
-                        LET"S BUILD SOMETHING
+                        LET'S BUILD SOMETHING
                     </p>
                     <h1 className="py-4 text-gray-700">
-                        Hi, I"m<span className="text-amber-400"> Nacha</span>
+                        Hi, I'm<span className="text-amber-400"> Nacha</span>
                     </h1>
                     <h1 className="py-4 text-gray-700">
                         A Junior Web Developer
                     </h1>
                     <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-                        I"m a fresh graduate from Telkom Malang Vocational High School majored in computer engineering
+                        I'm a fresh graduate from Telkom Malang Vocational High School majored in computer engineering
                     </p>
                     <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
                         <Link href="https://www.linkedin.com/in/kedar-anugerah-nacha-putra/"

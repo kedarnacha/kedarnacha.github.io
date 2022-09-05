@@ -62,7 +62,7 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className="border-b border-gray-300 my-4">
-                            <p className="w-[85%] md:w-[90%] py-4">Let"s build something</p>
+                            <p className="w-[85%] md:w-[90%] py-4">Let's build something</p>
                         </div>
                     </div>
                     <div className="py-4 flex flex-col">
@@ -84,7 +84,7 @@ const Navbar = () => {
                             </Link>
                         </ul>
                         <div className="pt-20">
-                            <p className="uppercase tracking-widest text-[#5651e5]">Let"s Connect</p>
+                            <p className="uppercase tracking-widest text-[#5651e5]">Let's Connect</p>
                             <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                                 <Link href="https://www.linkedin.com/in/kedar-anugerah-nacha-putra/"
                                     target="_blank"
