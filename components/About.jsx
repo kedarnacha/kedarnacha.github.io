@@ -4,7 +4,7 @@ import about from "../public/assets/me/about.png"
 
 const About = () => {
     return (
-        <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
+        <div id="about" className="w-full px-20 md:h-screen p-2 flex items-center py-16">
             <div className="max-w-[1240px] mx-auto md:grid grid-cols-5 gap-8">
                 <div className="col-span-3">
                     <p className="uppercase text-xl tracking-widest text-amber-400 font-bold">About</p>
